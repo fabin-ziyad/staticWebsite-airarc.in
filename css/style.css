@@ -362,6 +362,7 @@ h6,
 }
 .compliance{
     display: flex;
+    margin-left: 3px;
     flex-direction: row;
     width: 100%;
     background: #FFFFFF;
@@ -576,7 +577,7 @@ h6,
     top: 60%;
     left: 18%; 
     max-width: 400px;
-    color: var(--secondary);
+    color: #0cabfa;
     font-size: 28px;
     font-weight: bolder;
 }
@@ -586,7 +587,7 @@ h6,
     top: 60%;
     left: 15%; 
     max-width: 400px;
-    color: var(--secondary);
+    color: #0cabfa;
     font-size: 28px;
     font-weight: bolder;
 }
@@ -609,7 +610,7 @@ h6,
 .internal-services ul li{
     font-size: 18px;
     font-weight: bold;
-    color: #FF0F10;
+    color: #0182c2;
 }
 /* //responsive */
 @media only screen and (max-width:590px){
@@ -648,7 +649,7 @@ h6,
      top: 50%;
      left: 10%; 
      max-width: 250px;
-     color: var(--secondary);
+     color: #28b7ff;
      font-size: 20px;
      font-weight: bolder;
  }
@@ -656,7 +657,7 @@ h6,
     top: 50%;
     left: 10%; 
     max-width: 250px;
-    color: var(--secondary);
+    color: #24b0f6;
     font-size: 20px;
     font-weight: bolder;
  }
@@ -669,10 +670,6 @@ h6,
     }
     .title-service{
       font-size: 14px;
-    }
-    .newsletter{
-        color: var(--primary);
-        background: linear-gradient(45deg, rgba(255,15,16,1) 40%, rgba(255,0,95,1) 40%, rgba(2,104,140,1) 35%);
     }
 
   }
